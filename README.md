@@ -1,5 +1,5 @@
 # MATLAB-labs
-Pin-point analysis of questions based on digital signal processing.
+Pin-point analysis of lab questions based on digital signal processing.
 
 ## List of Abbreviations
 
