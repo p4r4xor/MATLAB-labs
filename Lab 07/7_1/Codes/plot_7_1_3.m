@@ -1,0 +1,12 @@
+w = -3*pi:0.01:3*pi;
+for p = -0.95:0.19:0.95
+[h,w] = freqz([1 -1/p],[1 -p],w);
+%calling function freqz for different values of coefficients of Numerator
+%and denominator
+plot(w,20*log10(abs(h)));
+%plotting the function h vs w for decibel magnitude of h
+title(["Plotting frequency response of filter" p " "]);
+xlabel("frequency w");
+ylabel("db Magnitude(H(z))");
+pause(2);
+end
