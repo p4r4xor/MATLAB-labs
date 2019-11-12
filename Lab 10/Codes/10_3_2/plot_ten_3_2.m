@@ -1,0 +1,13 @@
+[h1,h2] = ten_2(51,rectwin(51),1001);
+z = synthesizer1([24.5 24.5 27.5 24.5 16.35 30.87 24.5 24.5 27.5 24.5 18.35 16.35 24.5 24.5 24.5 20.6 16.35 30.87 27.5 21.83 21.83 20.60 16.35 18.35 16.35],20000,0.05,0.1,0.5,0.2,0.1);
+S1 = conv(z,h1);
+S2 = conv(z,h2);
+subplot(3,1,1);
+plot(abs(fftshift(fft(z))));
+title("Input musical notes in frequency domain");
+subplot(3,1,2);
+plot(abs(fftshift(fft(S1))));
+title("Input musical notes after passing through Low pass filter in frequency domain");
+subplot(3,1,3);
+plot(abs(fftshift(fft(S2))));
+title("Input musical notes after passing through High pass filter in frequency domain");

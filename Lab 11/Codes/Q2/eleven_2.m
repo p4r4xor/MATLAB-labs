@@ -1,0 +1,12 @@
+[h] = transitionband(101,0.4*pi,[0.8 0.4]);
+[H,wfine] = freqz(h,1,1024);
+figure(1);
+plot(h);
+title("Impulse response of Low Pass Filter with 101 samples and 0.8 and 0.4 as transition values");
+figure(2);
+subplot(2,1,1);
+plot(abs(H));
+title("Magnitude of the Frequency response of Low Pass Filter with more samples and 0.8 and 0.4 as transition values");
+subplot(2,1,2);
+plot(angle(H));
+title("Phase of the Frequency response of Low Pass Filter with more samples and 0.8 and 0.4 as transition values");
