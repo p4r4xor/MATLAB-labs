@@ -1,7 +1,21 @@
 # MATLAB-labs
 Pin-point analysis of questions based on digital signal processing.
 
-# Index
+## List of Abbreviations
+
+| List                   | Task                       |
+|------------------------|----------------------------|
+| `LTI`            |      `Linear time invariant`     |
+| `FS`   | `Fourier series`       |
+| `FT`  | `Fourier transform`    |
+| `DTFT`           |  `Discrete time fourier transform`   |
+| `DT`           | `Discrete time`    |
+| `DFT`           | `Discrete fourier transform`    |
+| `FFT`           | `Fast fourier transform`   |
+| `FIR`           | `Finite impulse response`    |
+| `IIR`           | `Infinite impulse response`    |
+
+## Index
 
 | List                   | Task                       |
 |------------------------|----------------------------|
