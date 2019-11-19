@@ -1,6 +1,10 @@
 # MATLAB-labs
 Pin-point analysis of lab questions based on digital signal processing.
 
+S19EC5.201 Digital Signal Processing Coursework
+
+Course Instructor: Prof. Santosh Nannuru, IIIT Hyderabad
+
 ## List of Abbreviations
 
 | List                   | Task                       |
